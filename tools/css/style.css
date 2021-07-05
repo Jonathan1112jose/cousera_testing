@@ -5,11 +5,14 @@ nav{
 	text-align: center;
 	padding: 15px;
 }
-nav a{
-	text-decoration: none;
-	color: black;
-	padding: 10px;
+nav a:link {
+  color: red;
 }
-nav a :visited{
-	color: blue;
+nav a:visited {
+  color: green;
+}nav a:hover {
+  color: hotpink;
+}
+nav a:active {
+  color: blue;
 }
