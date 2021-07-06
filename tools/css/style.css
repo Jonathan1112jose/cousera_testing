@@ -11,10 +11,13 @@ nav a:link {
 nav a:visited {
   color: green;
 }nav a:hover {
-  color: hotpink;
+  color: blue;
 }
 nav a:active {
   color: blue;
+}
+nav a{
+	background-color:#CFA7E6;
 }
 .return{
 	position: all;
@@ -31,5 +34,6 @@ nav a:active {
   0%   {background-color: red;}
   25%  {background-color: yellow;}
   50%  {background-color: blue;}
+  75% {background-color: hotpink}
   100% {background-color: green;}
 }
